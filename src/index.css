@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #243138;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -51,7 +51,7 @@ nav ul{
   justify-content: flex-end;
 }
 
-main ul{
+#cards{
   display: flex;
   flex-wrap: wrap;
 }
@@ -66,6 +66,7 @@ article{
   flex-direction: column;
   color: black;
   align-items: center;
+  text-align: center;
 }
 
 article *{
@@ -82,4 +83,8 @@ main{
   padding: 2em;
 }
 
-
+footer{
+  background: #243138;
+  position: fixed;
+  bottom: 0;
+}

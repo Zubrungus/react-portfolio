@@ -11,6 +11,7 @@ function App() {
       <main>
         <Outlet />
       </main>
+      <footer>Site made by Nick Bappe</footer>
     </>
   );
 }
